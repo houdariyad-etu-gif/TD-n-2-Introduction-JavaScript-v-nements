@@ -1,5 +1,3 @@
-# TD-n-2-Introduction-JavaScript-v-nements
-
 #  TP2 JavaScript — Exercices d'introduction des événements en JavaScript 
 
 Exercices d'initiation au JavaScript avec manipulation du DOM (Document Object Model).  
