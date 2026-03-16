@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        input{
+            margin:6px
+        }
+        #calculer{
+           background-color: rgb(27, 138, 236);
+           color: white ; 
+           font-size: 11px;
+           align-items: center;
+           padding:  8px 46px;
+           margin-top: 2%;
+           border-radius: 7px;
+        }
+        #labels{
+            margin-left:14% ;
+        }
+    </style>
+    <title>Exercice 3 — Calcul IMC</title>
+</head>
+<div>
+    <!-- ======= Exercice 3 — Calcul IMC ============== -->
+    <h1>Calculateur d'IMC</h1>
+    <div id="labels">
+        Poids (kg): <input type="text" id="poids">
+        <br>
+        Taille (m): <input type="text" id="taille">
+        <br>
+    </div>
+    <button onclick="calculerIMC()" id="calculer">Calculer</button>
+    <br>
+    <p id="resultat"></p>
+
+    <script>
+        
+        function calculerIMC() {
+            let poids = parseFloat(document.getElementById("poids").value);
+            let taille = parseFloat(document.getElementById("taille").value);
+            let imc = poids / (taille * taille);
+
+            let cas_obesite = "";
+
+            if (imc < 18.5) {
+                cas_obesite = "Insuffisance pondérale (maigreur)";
+            } 
+            else if (imc < 25) {
+                cas_obesite = "Corpulence normale";
+            } 
+            else if (imc < 30) {
+                cas_obesite = "Surpoids";
+            } 
+            else if (imc < 35) {
+                cas_obesite = "Obésité modérée";
+            } 
+            else if (imc < 40) {
+                cas_obesite = "Obésité sévère";
+            } 
+            else {
+                cas_obesite = "Obésité morbide";
+            }
+            
+            document.getElementById("resultat").innerHTML = 
+                "Votre IMC est de"+imc.toFixed(2)+".Vous etes en "+cas_obesite;            
+        }
+    </script>
+    
+</body>
+</html>

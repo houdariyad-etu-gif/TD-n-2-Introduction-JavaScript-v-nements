@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 1 — Permutation</title>
+</head>
+<body>
+    <!-- ======= Exercice 1 — Permutation ============== -->
+    <input type="text" id="input1" >
+    <br>
+    <input type="text" id="input2" >
+    <br>
+    <button id="permuter" onclick="permuter()">Permuter</button>
+    <script>
+        function permuter() {
+            let input1 = document.getElementById('input1');
+            let input2 = document.getElementById('input2');
+            let temp = input1.value;
+            input1.value = input2.value;
+            input2.value = temp;
+        }
+    </script>
+    
+</body>
+</html>
