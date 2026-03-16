@@ -7,7 +7,7 @@ Exercices d'initiation au JavaScript avec manipulation du DOM (Document Object M
 ## Structure du projet
 
 ```
-📂 TP-JavaScript/
+ TP-JavaScript/
 ├── ex1.html   → Permutation de deux valeurs
 ├── ex2.html   → Calculatrice Simple
 └── ex3.html   → Calculateur d'IMC
