@@ -28,7 +28,7 @@ En cliquant sur le bouton **Permuter**, les deux valeurs s'échangent.
 ### Aperçu
 
 **Avant le clic :**  
-![Avant permutation](imgs/ex1_apres_permutation.jpg)
+![Avant permutation](imgs/ex1_avant_permutation.jpg)
 
 **Après le clic :**  
 ![Après permutation](imgs/ex1_apres_permutation.jpg)
