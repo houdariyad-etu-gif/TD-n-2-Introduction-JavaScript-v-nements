@@ -28,10 +28,10 @@ En cliquant sur le bouton **Permuter**, les deux valeurs s'échangent.
 ### Aperçu
 
 **Avant le clic :**  
-![Avant permutation](ex1_avant_permutation.jpg)
+![Avant permutation](imgs/ex1_apres_permutation.jpg)
 
 **Après le clic :**  
-![Après permutation](ex1_apres_permutation.jpg)
+![Après permutation](imgs/ex1_apres_permutation.jpg)
 
 ---
 
@@ -48,7 +48,7 @@ Le résultat s'affiche dans un troisième champ.
 
 ### Aperçu
 
-![Calculatrice simple](ex2_Calculatrice-Simple.jpg)
+![Calculatrice simple](imgs/ex2_Calculatrice-Simple.jpg)
 
 ---
 
