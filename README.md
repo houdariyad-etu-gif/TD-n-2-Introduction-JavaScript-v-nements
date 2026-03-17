@@ -85,7 +85,7 @@ C'est un exercice pour pratiquer les **conditions `if / else if / else`** et l'a
 
 ### Aperçu
 
-![Calculateur IMC](ex3_Calcul IMC.jpg)
+![Calculateur IMC](imgs/ex3_Calcul_IMC.jpg)
 
 ---
 
