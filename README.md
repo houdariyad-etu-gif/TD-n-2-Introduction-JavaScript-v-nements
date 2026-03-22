@@ -88,7 +88,38 @@ C'est un exercice pour pratiquer les **conditions `if / else if / else`** et l'a
 ![Calculateur IMC](imgs/ex3_Calcul_IMC.jpg)
 
 ---
-
+ 
+## Exercice 4 — Calculatrice Avancée
+L'utilisateur peut effectuer des calculs scientifiques complets en utilisant les boutons de la calculatrice.  
+L'expression s'affiche sur l'écran au fur et à mesure, et le résultat s'affiche uniquement en appuyant sur `=`.
+ 
+### Concepts abordés
+- `display: grid` et `grid-template-columns` — mise en page CSS Grid
+- `onclick` — déclencher une fonction au clic d'un bouton
+- `.value +=` — ajouter du texte sur l'écran
+- `replaceAll()` — remplacer des symboles avant le calcul
+- `eval()` — évaluer une expression mathématique JavaScript
+- `try / catch` — gérer les erreurs de saisie
+ 
+### Fonctionnement
+L'écran affiche les symboles lisibles (`cos(`, `π`, `√(`...).  
+Au moment du `=`, la fonction `calculerResultat()` convertit ces symboles en code JavaScript avant de les évaluer :
+ 
+| Affiché sur l'écran | Converti pour JavaScript |
+|---------------------|--------------------------|
+| `sin(` | `Math.sin(` |
+| `cos(` | `Math.cos(` |
+| `tan(` | `Math.tan(` |
+| `ln(` | `Math.log(` |
+| `log(` | `Math.log10(` |
+| `√(` | `Math.sqrt(` |
+| `π` | `Math.PI` |
+| `^` | `**` |
+ 
+### Aperçu
+![Calculatrice Avancée](imgs/ex4_Calculatrice-Avanceejpg)
+ 
+---
 
 ## 🛠️ Technologies utilisées
 
