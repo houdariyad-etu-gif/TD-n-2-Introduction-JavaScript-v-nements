@@ -117,7 +117,7 @@ Au moment du `=`, la fonction `calculerResultat()` convertit ces symboles en cod
 | `^` | `**` |
  
 ### Aperçu
-![Calculatrice Avancée](imgs/ex4_Calculatrice-Avanceejpg)
+![Calculatrice Avancée](imgs/ex4_Calculatrice-Avancee.jpg)
  
 ---
 
